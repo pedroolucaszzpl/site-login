@@ -17,6 +17,36 @@ body {
       
    }
   .botao {
-      font-size: 20px;
+      
   }
-   
+
+  form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+  }
+
+  input [type="text"], input[type="password"] {
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   width: 300px;
+   font-size: 16px;
+   margin-left: 35%;
+  }
+
+  button {
+   background-color: green;
+   color: white;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 300px;
+   font-size: 16px;
+  }
+
+  button:hover {
+   background-color:  #45a090;
