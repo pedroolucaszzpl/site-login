@@ -3,7 +3,6 @@ body {
 }
    h1{
     font-size: 48px;
-    color: var(--Purple);
     padding: 10px 0;
     font-family: oswald;
     font-weight: 600;
@@ -11,13 +10,13 @@ body {
    }
    img {
       padding: 10px 0;
-      margin-left: 35%;
+      margin-left: 40%;
    }
    p {
-      margin-left: 35%;
+      margin-left: 40%;
       
    }
-   {
-
-   }
+  .botao {
+   font-weight: 300;
+  }
    
